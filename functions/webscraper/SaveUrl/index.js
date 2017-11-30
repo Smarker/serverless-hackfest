@@ -1,29 +1,20 @@
 'use strict';
 
-const config = require("./config");
-const cosmosClient = require("./CosmosClient");
+const config = require("../../../database/config.js");
+const cosmosClient = require("../../../database/CosmosClient.js");
+const databaseUrl = `dbs/${config.database.id}`;
+const siteCollectionUrl = `${databaseUrl}/colls/${config.siteCollection.id}`;
 
 module.exports = function (context, req) {
-  cosmosClient.getDatabase()
-  .then(() => { console.log(`Completed successfully`); })
-  .catch((error) => { console.log(`Completed with error ${JSON.stringify(error)}`) });
-  /*
-  req sends:
-  data = [
-    {
-      url: "zara/someItem",
-      monitoredPhrases: ["$35.00"]
-    },
-    {
-      url: "amazon/someItem",
-      monitoredPhrases: ["out of stock"]
-    }
-    ...
-  ]
+  cosmosClient.getOrCreateDatabase()
+  .then(database => { 
+    console.log(database);
+    return cosmosClient.getOrCreateCollection(siteCollectionUrl) 
+  })
+  .then(sites => { console.log(`Completed successfully`, sites); })
+  .catch(error => { console.log(`Completed with error ${JSON.stringify(error)}`) });
 
-  insert them into cosmos db
-  */
-
+  //example
   context.log('JavaScript HTTP trigger function processed a request.');
   if (req.query.name || (req.body && req.body.name)) {
     context.res = {
