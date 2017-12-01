@@ -1,0 +1,157 @@
+
+                  %%%%%%
+                 %%%%%%
+            @   %%%%%%    @
+          @@   %%%%%%      @@
+       @@@    %%%%%%%%%%%    @@@
+     @@      %%%%%%%%%%        @@
+       @@         %%%%       @@
+         @@      %%%       @@
+           @@    %%      @@
+                %%
+                %
+
+[12/1/17 1:40:47 AM] Reading host configuration file '/Users/micone/Documents/code/serverless-hackfest/functions/webscraper/host.json'
+[12/1/17 1:40:47 AM] Host configuration file read:
+[12/1/17 1:40:47 AM] {}
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      Start Process: node  --inspect=5858 "/Users/micone/.azurefunctions/bin/workers/node/dist/src/nodejsWorker.js" --host 127.0.0.1 --port 57693 --workerId 7337b080-f6f5-457a-8b40-1194886b75df --requestId 46c45056-b984-4e73-aed4-f4a181edaa8e
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      Debugger listening on ws://127.0.0.1:5858/1b5496c3-0803-4475-82f0-1f9b06e193e2
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      For help see https://nodejs.org/en/docs/inspector
+[12/1/17 1:40:48 AM] Generating 3 job function(s)
+[12/1/17 1:40:48 AM] Starting Host (HostId=michellesmbp-14169429, Version=2.0.11370.0, ProcessId=61384, Debug=False, ConsecutiveErrors=0, StartupCount=0, FunctionsExtensionVersion=~1)
+Listening on http://localhost:7071/
+Hit CTRL-C to exit...
+
+Http Functions:
+
+	SaveUrl: http://localhost:7071/api/SaveUrl
+
+	Webscraper: http://localhost:7071/api/Webscraper
+
+launch.json for VSCode configured.
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      Worker 7337b080-f6f5-457a-8b40-1194886b75df connecting on 127.0.0.1:57693
+[12/1/17 1:40:48 AM] Found the following functions:
+[12/1/17 1:40:48 AM] Host.Functions.SaveUrl
+[12/1/17 1:40:48 AM] Host.Functions.Webscraper
+[12/1/17 1:40:48 AM] Host.Functions.SubmitWebscraperRequest
+[12/1/17 1:40:48 AM] 
+[12/1/17 1:40:49 AM] Host lock lease acquired by instance ID '00000000000000000000000035CF3821'.
+[12/1/17 1:40:49 AM] The next 5 occurrences of the schedule will be:
+[12/1/17 1:40:49 AM] 11/30/17 5:45:00 PM
+[12/1/17 1:40:49 AM] 11/30/17 5:50:00 PM
+[12/1/17 1:40:49 AM] 11/30/17 5:55:00 PM
+[12/1/17 1:40:49 AM] 11/30/17 6:00:00 PM
+[12/1/17 1:40:49 AM] 11/30/17 6:05:00 PM
+[12/1/17 1:40:49 AM] 
+[12/1/17 1:40:49 AM] Job host started
+[12/1/17 1:41:07 AM] Function started (Id=36693a11-d1bf-45cd-bad2-93e2ee492221)
+[12/1/17 1:41:07 AM] Executing 'Functions.Webscraper' (Reason='This function was programmatically called via the host APIs.', Id=36693a11-d1bf-45cd-bad2-93e2ee492221)
+[12/1/17 1:41:08 AM] JavaScript HTTP trigger function processed a request.
+[12/1/17 1:41:08 AM] Function completed (Success, Id=36693a11-d1bf-45cd-bad2-93e2ee492221, Duration=267ms)
+[12/1/17 1:41:08 AM] Executed 'Functions.Webscraper' (Succeeded, Id=36693a11-d1bf-45cd-bad2-93e2ee492221)
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      Washington Post: Breaking News, World, US, DC News & Analysis - The Washington Post
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      https://www.washingtonpost.com/
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+      Desktop notifications are on   | Turn off Get breaking news alerts from  The Washington Post Turn on desktop notifications?Do you have information the public should know? Here are some ways you can securely send information and documents to Post journalists.Learn more 
+info: Worker.Node.7337b080-f6f5-457a-8b40-1194886b75df[0]
+         Democracy Dies in Darkness   Sections    HomePoliticsOpinionsSportsLocalNationalWorldBusinessTechLifestyleEntertainmentVideoJobsClassifiedsWP BrandStudio Subscribe  Username  Sign In AccountProfileNewsletters & AlertsGift SubscriptionsContact UsHelp Desk Subscribe AccountProfileNewsletters & AlertsGift SubscriptionsContact UsHelp DeskTurn off  Democracy Dies in DarknessU.S. & WorldRegionalNazi storyThai templeHurricanesCampaign adGeraldo RiveraAl FrankenBulliesRussell SimmonsTrump's TwitterEye-eating parasiteESPNColin KaepernickGOP considers future tax hike in Senate bill after report shows current measure raises deficitErica WernerMike DeBonisDamian PalettaCongress’s official estimators say Senate’s tax bill would add $1 trillion to the debt. Here’s why that matters so much.Heather LongThe Fix: Why Senate Republicans are rushing to pass an unpopular tax bill, in one sentenceWonkblog: What’s in the massive tax bill — and what could changeTrump tells confidants that a government shutdown might be good for him politicallySean SullivanEd O'KeefeIf North Korea fires a nuclear missile at the U.S., how could it be stopped?WorldViews: North Korea has shown us its new missile, and it’s scarier than we thoughtWhite House plan to oust Tillerson could lay groundwork for seismic personnel changeAshley ParkerPhilip Rucker@PKCapitol: Cotton to CIA? The move would say a lot about how the GOP star views his party’s future.N.Y. attorney general warns Project Veritas that its fundraising license is at riskShawn BoburgProject Veritas operative’s effort to infiltrate Post dated back months, extended to other news outlets Opinions  Opinions Tillerson’s fall could turn State into a hawk’s nestDavid IgnatiusThis is getting worseEugene RobinsonApparently Republicans want to kick the middle class in the faceCatherine RampellTrump wants to gut America’s progress against AIDSMichael GersonMaybe Trump knows his base better than we doFareed ZakariaRename the block in front of the Russian EmbassyEditorial BoardJury finds Mexican man not guilty in San Francisco pier killing, a case that sparked immigration debate in 2015Trump isn’t going to Alabama to campaign for Roy Moore. But he plans to hold a rally next door.Paul Manafort reaches bail deal with Mueller investigation prosecutors for judge’s approvalSpencer S. HsuModest 4.1-magnitude earthquake hits Delaware, rattling windows as away far as D.C.Joel AchenbachBritain furious, Trump unapologetic as fallout swells from anti-Muslim videos Karla AdamWilliam BoothTrump was seeking to ‘elevate the conversation’ with retweets of anti-Muslim videos, spokeswoman saysAs ‘Today’ grapples with Matt Lauer’s firing, the question becomes: What’s next?Emily YahrPerspective: Why don’t women talk about harassment? They are afraid to lose their jobs.Singer and comic actor who played TV’s hapless hayseed Gomer Pyle dies at 87Matt SchudelIn SightFor 65 years, young campers have been exploring their Estonian identity and culture in CanadaGraphicDo Senate Republicans have the votes to pass their tax bill?InvestigationsText messages with Project Veritas operative show sustained effort to befriend Post employeeView PhotosPhotos from the scene at the lighting of the National Christmas TreeView PhotosThe somber scene at the ‘Today’ show after host Matt Lauer is firedView PhotosInside the Washington area’s most expensive homes for sale "President Trump, end this 'American carnage.'"   1    Senate GOP tax plan hits deficit snag, leaving leaders scrambling     2     Perspective  I’m a Depression historian. The GOP tax bill is straight out of 1929.     3    Trump tells confidants that a government shutdown might be good for him     4    ‘Bully’ caught on video sucker-punching man with cerebral palsy sentenced to prison     5    Jury: Mexican man not guilty in San Francisco pier killing   Today's print storiesView e-Replica edition Market Watch  Live Discussions  Earlier Today Candace Ourisman and Ashley Bronczek share their gifting expertise - Home Front  Q&A Transcript   Earlier Today CANCELED: Color of Money Live (November 30)  Q&A Transcript   Earlier Today Adrian Higgins on all things gardening  Q&A Transcript   Earlier Today What to Watch: TV chat with Hank Stuever  Q&A Transcript   Earlier Today Web Hostess Live: The latest from the Web  Q&A Transcript  Weekly schedule, past showsShare news tips with us confidentiallyLearn more ComicsEggzCrosswordsHoroscopesMah JonggSolitaireSudokuTV listingsPolitics Pelosi, other top Democrats call on Conyers to resign over sexual harassment allegationsWhite House plan to oust Tillerson could elevate Trump loyalist PompeoTrump tells confidants that a government shutdown might be good for himHouse Democrats weighing legislative changes that would open up harassment settlement processWorld Gold dealer implicates Turkey’s president in corruption schemeRex Tillerson brushes off reports that he is being shown the doorGold dealer implicates Turkey’s president in corruption schemeWhy North Korea’s latest ballistic missile test is worrisomeNational American Airlines says ‘only a few hundred’ flights are without pilots; union maintains thousands remain unassignedThis police officer is accused of being an ISIS-supporting neo-Nazi. He says he just has a dark sense of humor.Judge orders U.S. government to say by 5 p.m. whether American ISIS suspect caught in Syria has asked for lawyerApple wants to know your heart rate. For science.PostEverything Why abortion — not sexual misconduct — is likely to decide the Alabama Senate raceIf you’re against the tax plan, you’re a) in the majority, and b) not a congressional RepublicanI’m on Trump’s voter fraud commission. I’m suing it to find out what it’s doing.President Trump’s whole political career has been built on IslamophobiaLocal High confidence that major dose of wintry weather is coming to D.C. late next weekLeaders at D.C. charter school are out of jobs after teacher’s sex-abuse caseMaryland corrections officer accused of being a high-ranking gang memberLabor leaders endorse Edwards in Pr. George’s county executive raceSports If Eli Manning’s days with the Giants are numbered, where might he land in 2018?Colin Kaepernick receives Muhammad Ali Legacy Award from Sports IllustratedRedskins Gameday: Trent Williams, Ty Nsekhe both starting against CowboysMaryland basketball trio will draw on last year’s struggles during this month’s schedule crushLifestyle Wedding cakes can be stunning creations. But do they qualify as art?Of course 2017 would end with a $1 Long Island Ice Tea promotion from Applebee’sAs ‘Today’ grapples with Matt Lauer’s firing, the question becomes: What’s next?Carolyn Hax: When loved ones act like they don’t give a lump of coalArts ‘Chess’ musical will get a new book in Kennedy Center concertWhat’s Steve Martin up to with ‘Meteor Shower’? Your guess is as good as mine.Liars, hucksters and fake news are nothing new: a history lesson in hoaxesJonathan Swift turns 350 this week. Would the great satirist be disgusted with DC?Technology Scientists can now figure out detailed, accurate neighborhood demographics using Google Street View photosApple wants to know your heart rate. For science.FCC unveils plan to repeal net neutrality, giving Internet providers power to favor websitesApple is sharing your face with apps. That’s a new privacy worry.Business & Real Estate Dow smashes through 24,000 as markets touch new highsSenate GOP tax plan hits deficit snag, leaving leaders scramblingMick Mulvaney is now one of the most powerful bureaucrats in the countryFederal Government House to vote on lengthening trial period for federal employees from one to two yearsQ&A for federal workers: Pay parityAppeals agency backlog reflects Trump’s foot-dragging on appointments, hindering servicesQ&A for federal workers: Medicare and the FEHBPObituaries Jim Nabors, who played TV’s hapless hayseed Gomer Pyle, dies at 87Harry Pregerson, federal judge who placed conscience before law, dies at 94Wesley Fox, Marine who received Medal of Honor for Vietnam campaign, dies at 86Shadia, popular Egyptian actress and singer, dies at 88       Archives washingtonpost.comSubscribeSign InHelp and Contact UsDigital Products Terms of SalePrint Products Terms of SaleTerms of ServicePrivacy PolicySubmissions and Discussion PolicyRSS Terms of ServiceAd ChoicesDigital Products Terms of SalePrint Products Terms of SaleTerms of ServicePrivacy PolicySubmissions and Discussion PolicyRSS Terms of ServiceAd ChoicesHome DeliveryDigital SubscriptionGift SubscriptionsMobile & AppsNewsletters & AlertsWashington Post LiveReprints & PermissionsPost StorePhoto Storee-ReplicaHelp & Contact InfoReader RepresentativeAdvertiseNews Service & SyndicateIn the CommunityCareersPostPointsNewspaper in EducationDigital Publishing GuidelinesToday's PaperWP BrandStudioEvents
+[12/1/17 1:42:50 AM] Reading host configuration file '/Users/micone/Documents/code/serverless-hackfest/functions/webscraper/host.json'
+[12/1/17 1:42:50 AM] Host configuration file read:
+[12/1/17 1:42:50 AM] {}
+[12/1/17 1:42:50 AM] Stopping Host
+[12/1/17 1:42:50 AM] Job host stopped
+info: Worker.Node.121fc4b7-b45f-43c7-af11-5e40d8607d30[0]
+      Start Process: node  --inspect=5858 "/Users/micone/.azurefunctions/bin/workers/node/dist/src/nodejsWorker.js" --host 127.0.0.1 --port 57800 --workerId 121fc4b7-b45f-43c7-af11-5e40d8607d30 --requestId 50dd44da-3a84-4143-8a13-418efcb4eca1
+[12/1/17 1:42:50 AM] Generating 3 job function(s)
+[12/1/17 1:42:50 AM] Starting Host (HostId=michellesmbp-14169429, Version=2.0.11370.0, ProcessId=61384, Debug=False, ConsecutiveErrors=0, StartupCount=0, FunctionsExtensionVersion=~1)
+[12/1/17 1:42:50 AM] Found the following functions:
+[12/1/17 1:42:50 AM] Host.Functions.SaveUrl
+[12/1/17 1:42:50 AM] Host.Functions.Webscraper
+[12/1/17 1:42:50 AM] Host.Functions.SubmitWebscraperRequest
+[12/1/17 1:42:50 AM] 
+info: Worker.Node.121fc4b7-b45f-43c7-af11-5e40d8607d30[0]
+      Debugger listening on ws://127.0.0.1:5858/ce312137-1ecd-4867-947e-6683c9735add
+info: Worker.Node.121fc4b7-b45f-43c7-af11-5e40d8607d30[0]
+      For help see https://nodejs.org/en/docs/inspector
+info: Worker.Node.121fc4b7-b45f-43c7-af11-5e40d8607d30[0]
+      Worker 121fc4b7-b45f-43c7-af11-5e40d8607d30 connecting on 127.0.0.1:57800
+[12/1/17 1:42:51 AM] The next 5 occurrences of the schedule will be:
+[12/1/17 1:42:51 AM] 11/30/17 5:45:00 PM
+[12/1/17 1:42:51 AM] 11/30/17 5:50:00 PM
+[12/1/17 1:42:51 AM] 11/30/17 5:55:00 PM
+[12/1/17 1:42:51 AM] 11/30/17 6:00:00 PM
+[12/1/17 1:42:51 AM] 11/30/17 6:05:00 PM
+[12/1/17 1:42:51 AM] 
+[12/1/17 1:42:51 AM] Job host started
+[12/1/17 1:42:51 AM] Host lock lease acquired by instance ID '00000000000000000000000035CF3821'.
+[12/1/17 1:42:54 AM] Stopping Host
+[12/1/17 1:42:54 AM] Reading host configuration file '/Users/micone/Documents/code/serverless-hackfest/functions/webscraper/host.json'
+[12/1/17 1:42:54 AM] Host configuration file read:
+[12/1/17 1:42:54 AM] {}
+[12/1/17 1:42:54 AM] Job host stopped
+info: Worker.Node.618ab47d-1f36-45c2-ba21-08a4794fe51d[0]
+      Start Process: node  --inspect=5858 "/Users/micone/.azurefunctions/bin/workers/node/dist/src/nodejsWorker.js" --host 127.0.0.1 --port 57808 --workerId 618ab47d-1f36-45c2-ba21-08a4794fe51d --requestId ea20414f-3794-4496-921f-0d2a7e58352a
+[12/1/17 1:42:54 AM] Generating 3 job function(s)
+[12/1/17 1:42:54 AM] Starting Host (HostId=michellesmbp-14169429, Version=2.0.11370.0, ProcessId=61384, Debug=False, ConsecutiveErrors=0, StartupCount=0, FunctionsExtensionVersion=~1)
+[12/1/17 1:42:54 AM] Found the following functions:
+[12/1/17 1:42:54 AM] Host.Functions.SaveUrl
+[12/1/17 1:42:54 AM] Host.Functions.Webscraper
+[12/1/17 1:42:54 AM] Host.Functions.SubmitWebscraperRequest
+[12/1/17 1:42:54 AM] 
+info: Worker.Node.618ab47d-1f36-45c2-ba21-08a4794fe51d[0]
+      Debugger listening on ws://127.0.0.1:5858/c0870c6c-6fdb-4f2f-8816-6f68a7bc81ca
+info: Worker.Node.618ab47d-1f36-45c2-ba21-08a4794fe51d[0]
+      For help see https://nodejs.org/en/docs/inspector
+info: Worker.Node.618ab47d-1f36-45c2-ba21-08a4794fe51d[0]
+      Worker 618ab47d-1f36-45c2-ba21-08a4794fe51d connecting on 127.0.0.1:57808
+[12/1/17 1:42:54 AM] Host lock lease acquired by instance ID '00000000000000000000000035CF3821'.
+[12/1/17 1:42:54 AM] The next 5 occurrences of the schedule will be:
+[12/1/17 1:42:54 AM] 11/30/17 5:45:00 PM
+[12/1/17 1:42:54 AM] 11/30/17 5:50:00 PM
+[12/1/17 1:42:54 AM] 11/30/17 5:55:00 PM
+[12/1/17 1:42:54 AM] 11/30/17 6:00:00 PM
+[12/1/17 1:42:54 AM] 11/30/17 6:05:00 PM
+[12/1/17 1:42:54 AM] 
+[12/1/17 1:42:54 AM] Job host started
+[12/1/17 1:43:06 AM] Stopping Host
+[12/1/17 1:43:06 AM] Reading host configuration file '/Users/micone/Documents/code/serverless-hackfest/functions/webscraper/host.json'
+[12/1/17 1:43:06 AM] Host configuration file read:
+[12/1/17 1:43:06 AM] {}
+[12/1/17 1:43:06 AM] Job host stopped
+info: Worker.Node.4887d6c0-22be-43c5-892a-c50a7cc67e7e[0]
+      Start Process: node  --inspect=5858 "/Users/micone/.azurefunctions/bin/workers/node/dist/src/nodejsWorker.js" --host 127.0.0.1 --port 57814 --workerId 4887d6c0-22be-43c5-892a-c50a7cc67e7e --requestId 6697409d-9da9-402b-9581-f128df49fac2
+[12/1/17 1:43:06 AM] Generating 3 job function(s)
+[12/1/17 1:43:06 AM] Starting Host (HostId=michellesmbp-14169429, Version=2.0.11370.0, ProcessId=61384, Debug=False, ConsecutiveErrors=0, StartupCount=0, FunctionsExtensionVersion=~1)
+info: Worker.Node.4887d6c0-22be-43c5-892a-c50a7cc67e7e[0]
+      Debugger listening on ws://127.0.0.1:5858/e9550486-a843-4e98-bde2-22f8439fef03
+info: Worker.Node.4887d6c0-22be-43c5-892a-c50a7cc67e7e[0]
+      For help see https://nodejs.org/en/docs/inspector
+[12/1/17 1:43:06 AM] Found the following functions:
+[12/1/17 1:43:06 AM] Host.Functions.SaveUrl
+[12/1/17 1:43:06 AM] Host.Functions.Webscraper
+[12/1/17 1:43:06 AM] Host.Functions.SubmitWebscraperRequest
+[12/1/17 1:43:06 AM] 
+info: Worker.Node.4887d6c0-22be-43c5-892a-c50a7cc67e7e[0]
+      Worker 4887d6c0-22be-43c5-892a-c50a7cc67e7e connecting on 127.0.0.1:57814
+[12/1/17 1:43:07 AM] Host lock lease acquired by instance ID '00000000000000000000000035CF3821'.
+[12/1/17 1:43:07 AM] The next 5 occurrences of the schedule will be:
+[12/1/17 1:43:07 AM] 11/30/17 5:45:00 PM
+[12/1/17 1:43:07 AM] 11/30/17 5:50:00 PM
+[12/1/17 1:43:07 AM] 11/30/17 5:55:00 PM
+[12/1/17 1:43:07 AM] 11/30/17 6:00:00 PM
+[12/1/17 1:43:07 AM] 11/30/17 6:05:00 PM
+[12/1/17 1:43:07 AM] 
+[12/1/17 1:43:07 AM] Job host started
+[12/1/17 1:43:08 AM] Stopping Host
+fail: Worker.Node.4887d6c0-22be-43c5-892a-c50a7cc67e7e[0]
+      Worker encountered an error.
+info: Worker.Node.f1c7fadb-a4ff-4927-9b4b-95b5636a45b9[0]
+      Start Process: node  --inspect=5858 "/Users/micone/.azurefunctions/bin/workers/node/dist/src/nodejsWorker.js" --host 127.0.0.1 --port 57814 --workerId f1c7fadb-a4ff-4927-9b4b-95b5636a45b9 --requestId 48a09509-b754-4469-bba4-29134caca298
+[12/1/17 1:43:08 AM] A ScriptHost error has occurred
+[12/1/17 1:43:08 AM] Worker process with pid 61442 exited with code 130.
